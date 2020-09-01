@@ -1,4 +1,4 @@
-print("Hello python")
-print(7)
-print(1+1)
-print("2*3")
+
+print(9/2)
+print(9+3)
+print(9%2)
