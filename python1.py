@@ -8,9 +8,9 @@ drinks = {
 
 
 
-# for name,contents in drinks.items():
-#   if 'vodka' in contents:
-#     print(name)
+for name,contents in drinks.items():
+  if 'vodka' in contents:
+    print(name)
     
 
 # for name ,contents in drinks.items():
@@ -25,6 +25,3 @@ drinks = {
 #     print(name)
 
 
-for name, contents in drinks.items():
-  if contents & {'vermouth','orange juice'}:
-    print(name)
