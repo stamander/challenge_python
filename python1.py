@@ -1,3 +1,14 @@
-print(set(('Ummagunma','Echoes','Atom Herat Mother')))
+drinks = {
+  'martini':{'vodka':'vermouth'},
+  'black russian':{'vodka','kahlua'},
+  'white russian':{'cream','kahlua','vodka'},
+  'manhattan':{'rye','vermouth','bitters'},
+  'screwdriver':{'orange juice','vodka'}
+}
 
-print(set({'apple':'red','orange':'orange','cherry':'red'})) 
+print(drinks['martini'])
+
+for name,contents in drinks.items():
+  if 'vodka' in contents:
+    print(name)
+    
