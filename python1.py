@@ -8,3 +8,14 @@ bierce = {
 lot = [('a','b'),('c','d'),('e','f')]
 print(dict(lot))
 
+pythons = {
+  'Champman':'Graham',
+  'Cleese':'John',
+  'Idle':'Eric',
+  'Jones':'Terry',
+  'Palin':'Michael'
+}
+
+pythons['Gilliam']= 'Gerry'
+
+print(pythons)
