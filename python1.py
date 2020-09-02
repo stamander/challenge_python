@@ -1,4 +1,4 @@
 
-print(9/2)
-print(9+3)
-print(9%2)
+empty_list= [ ]
+weekdays = ['Monday','Tuesday','Wednesday','Thursday','Friday']
+big_birds = ['emu','ostrich','cassowary']
