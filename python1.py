@@ -13,12 +13,10 @@ others = {'Marx':'Grousho','Howard':'Moe'}
 
 pythons.update(others)
 
-print(pythons)
 
 
-del pythons['Marx']
-del pythons['Howard']
 
 
-pythons = {}
-print(pythons)
+
+
+print(pythons['Cleese'])
