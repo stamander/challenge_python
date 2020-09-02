@@ -13,15 +13,3 @@ for name,contents in drinks.items():
     print(name)
     
 
-# for name ,contents in drinks.items():
-#   if 'vodka' in contents and not ('vermouth' in contents
-#     or 'cream' in contents):
-#     print(name)
-  
-
-
-# for name, contents in drinks.items():
-#   if contents & {'vermouth','orange juice'}:
-#     print(name)
-
-
