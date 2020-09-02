@@ -6,9 +6,15 @@ drinks = {
   'screwdriver':{'orange juice','vodka'}
 }
 
-print(drinks['martini'])
+
 
 for name,contents in drinks.items():
   if 'vodka' in contents:
     print(name)
     
+
+for name ,contents in drinks.items():
+  if 'voldka' in contents and not ('vermouth' in contents
+    or 'cream' in contents):
+    print(name)
+  
