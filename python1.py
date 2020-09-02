@@ -21,4 +21,5 @@ for name ,contents in drinks.items():
 
 
 for name, contents in drinks.items():
-  if contents & {ver}
+  if contents & {'vermouth','orange juice'}:
+    print(name)
