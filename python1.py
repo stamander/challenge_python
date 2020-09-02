@@ -4,4 +4,4 @@ signals = {
   'red':'smile for the camera'
 }
 
-print(signals.keys())
+print(signals.items())
