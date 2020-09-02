@@ -1,6 +1,4 @@
 
-
-
 pythons = {
   'Champman':'Graham',
   'Cleese':'John',
@@ -9,6 +7,18 @@ pythons = {
   'Palin':'Michael'
 }
 
-pythons['Gilliam']= 'Gerry'
 
+others = {'Marx':'Grousho','Howard':'Moe'}
+
+
+pythons.update(others)
+
+print(pythons)
+
+
+del pythons['Marx']
+del pythons['Howard']
+
+
+pythons = {}
 print(pythons)
