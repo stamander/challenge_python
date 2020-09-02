@@ -1,5 +1,8 @@
 while True:
-  stuff = input ("String to capitalize [type q to quit]:")
-  if stuff == "q" :
+  value = input ("Integer,please[q to quit]")
+  if value == 'q':
     break
-    print(stuff.capitalize()) 
+  number = int(value)
+  if number %2 ==0:
+    continue
+  print(number,"squared  is",number*number)
