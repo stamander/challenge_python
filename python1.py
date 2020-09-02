@@ -5,4 +5,6 @@ bierce = {
   "misfortune":"The kind of fortune that never misses",
 }
 
-print(bierce)
+lot = [('a','b'),('c','d'),('e','f')]
+print(dict(lot))
+
