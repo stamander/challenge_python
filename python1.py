@@ -1,6 +1,5 @@
-some_list =[]
-
-if some_list:
-  print("There's something in here")
-else:
-  print("Hey,Its empty")
+while True:
+  stuff = input ("String to capitalize [type q to quit]:")
+  if stuff == "q" :
+    break
+    print(stuff.capitalize()) 
