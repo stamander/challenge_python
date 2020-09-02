@@ -1,22 +1,7 @@
-
-pythons = {
-  'Champman':'Graham',
-  'Cleese':'John',
-  'Idle':'Eric',
-  'Jones':'Terry',
-  'Palin':'Michael'
+signals = {
+  'green': 'go',
+  'yellow':'go faster',
+  'red':'smile for the camera'
 }
 
-
-others = {'Marx':'Grousho','Howard':'Moe'}
-
-
-pythons.update(others)
-
-
-
-
-
-
-
-print(pythons['Cleese'])
+print(signals.keys())
