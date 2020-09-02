@@ -4,4 +4,8 @@ signals = {
   'red':'smile for the camera'
 }
 
-print(signals.items())
+
+original_signals = signals.copy
+original_signals['blue'] = 'confuse everyone'
+
+print(save_signals)
