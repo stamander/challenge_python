@@ -1,2 +1,8 @@
-marx_list =['Groucho','Chico','Harpo']
-marx_tuple = 'Groucho','Chico','Ha'
+marxes =['Groucho','Chico','Harpo']
+pythons = ['Champman','Cleese','Gilliam','Jones','Palin']
+strooges= ['Moe','Curry','Larry']
+
+tuple_of_lists = [marxes,pythons,strooges]
+print(tuple_of_lists)
+
+dict
