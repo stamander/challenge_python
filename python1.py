@@ -1,3 +1,2 @@
-rabbits = ['Flopsy','Mopsy','cottontail','Fester']
-for rabbit in rabbits:
-  print(rabbit)
+for i in range (100):
+  print("hello world")
