@@ -1,6 +1,9 @@
 
 # -*- coding: utf-8 -*-
-for i in range (100):
-  print("Hello World")
 
+def f(x):
+  return x  2
 
+result = f(2)
+
+print(result)
