@@ -1,2 +1,3 @@
-for i in range (100):
-  print("hello world")
+home = 'アメリカ'
+if home =='アメリカ':
+  print("hello amerika")
