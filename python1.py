@@ -1,9 +1,9 @@
 
 # -*- coding: utf-8 -*-
 
-age = input("Enter your age :")
-int_age = int(age)
-if int_age <21:
-  print("You are young!")
-else:
-  print("Wow your old!")
+def even_odd(x):
+  if x % 2 == 0:
+    print("偶数")
+  else:
+    print("奇数")
+    
