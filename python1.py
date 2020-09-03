@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
  
 
-a = input("type a number:")
-b = input("type b number:")
-
-a = int(a)
-b = int(b)
 
 try:
+  a = input("type a number:")
+  b = input("type b number:")
+
+  a = int(a)
+  b = int(b)
   print (a/b)
-except ZeroDivisionError:
-  print("b canot be zero")
+except (ZeroDivisionError,ValueError):
+  print("bに0を入れたり、数値データを入れたりしたでしょ?だから計算できないよ")
