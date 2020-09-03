@@ -1,6 +1,9 @@
 
 # -*- coding: utf-8 -*-
 
-print(str(100))
-
-int("1")
+age = input("Enter your age :")
+int_age = int(age)
+if int_age <21:
+  print("You are young!")
+else:
+  print("Wow your old!")
