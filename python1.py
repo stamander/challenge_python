@@ -1,6 +1,6 @@
 
 # -*- coding: utf-8 -*-
-home = 'アメリカ'
+home = 'アメリ'
 
 if home =='アメリカ':
   print("hello amerika")
