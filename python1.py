@@ -1,9 +1,8 @@
 
 # -*- coding: utf-8 -*-
 
-def f(x):
-  return x  2
+def f(x,y,z):
+  return x + y + z
 
-result = f(2)
-
-print(result)
+result = f(1,2,3)
+print (result)
