@@ -1,4 +1,8 @@
 
 # -*- coding: utf-8 -*-
 
-def 
+def squere(a):
+
+  return a*a
+
+print(squere(5))
