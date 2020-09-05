@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*-
 
 def division(a):
-  return a/2
+  return b = a/2
 
-  multiplication(a)
+  multiplication(b)
 
 
 
-def multiplication(a):
-  return a * 4
-  print(a)
+def multiplication(b):
+  return  c = b * 4
+  print(c)
   
 
 
