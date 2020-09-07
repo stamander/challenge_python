@@ -1,20 +1,8 @@
-apple_price = 200
-# 変数moneyに数値1000を代入してください
-money = 1000
+colors = ["purple","orange","green"]
 
-input_count = input('購入するりんごの個数を入力してください：')
-count = int(input_count)
-total_price = apple_price * count
+guess = input ("何色でしょう?(入力してください)：")
 
-print('購入するりんごの個数は' + str(count) + '個です')
-print('支払い金額は' + str(total_price) + '円です')
-
-# moneyとtotal_priceの比較結果によって条件を分岐してください
-if money > total_price :
-    print('りんごを'+ str(count) + '個買いました' )
-    print('残金は'+ str(money - total_price)+'円です')
-elif money == total_price :
-    print('りんごを'+ str(count)+'個買いました')
-    print('財布が空になりました')
-else:
-    print('お金が足りません\nりんごを買えませんでした')
+if guess in colors:
+  print("当たり")
+else :
+  print("ハズレ！また挑戦してね")
