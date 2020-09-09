@@ -4,4 +4,6 @@ my_dict = {
 
 }
 
-print(my_dict["Apple"])
+my_dict["suica"] = "Green" 
+
+print(my_dict)
