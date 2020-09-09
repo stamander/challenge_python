@@ -1,7 +1,1 @@
-author = "Kafka"
-
-
-print(
-  author[-1],
- 
-)
+print("cat"+ "in" +"the"+ "hat")
