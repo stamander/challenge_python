@@ -1,3 +1,3 @@
-my_tuple = tuple()
+my_tuple = ()
 my_tuple = ("M.Jackson",1958,True)
-print(my_tuple)
+print(1958 in my_tuple)
