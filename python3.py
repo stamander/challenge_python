@@ -1,22 +1,4 @@
-words = [
-  "The",
-  "fox",
-  "jumped",
-  "over",
-  "the",
-  "fence",
-  "."
+equ = "All animals are equal."
 
-]
-
-
-one = " ".join(words)
-
-print(one)
-
-
-
-s = "   the   "
-# s = s.strip()
-
-print(s)
+equ = equ.replace("a","@")
+print(equ)
