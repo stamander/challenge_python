@@ -1,6 +1,6 @@
 
 try:
-  "animals".index("z")
+  print("animals".index("z"))
 except:
   print("not found")
 
