@@ -1,6 +1,1 @@
-
-try:
-  print("animals".index("z"))
-except:
-  print("not found")
-
+print("Cat" in "cat in the hat")
