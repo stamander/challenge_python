@@ -1,1 +1,1 @@
-print("sawyer"* 3)
+print("OYUKI".lower())
