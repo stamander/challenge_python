@@ -1,1 +1,1 @@
-print("OYUKI".lower())
+print("OYUKI and ats..".capitalize())
