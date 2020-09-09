@@ -1,6 +1,8 @@
-print("こんにちは,{}".format("ウィリアム・フォークナー"))
+what = input("何が:")
+when = input("いつ：")
+where = input("どこで：")
+do = input("どうした：")
 
-author = "ウィリアムフォークナー"
-year_born = "1897"
+r = "{}は{}に{}で{}。".format(what,when,where,do)
 
-print("{}は{}年に生まれました".format(author,year_born))
+print(r)
