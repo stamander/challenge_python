@@ -1,9 +1,7 @@
-shows = ["GOT","Narcos","Vice"]
-for show in shows:
-  print(show)
+people = {
+  "G.Bluth II": "A development",
+  "Barney":"HIMYM"
+}
 
-
-
-coms = ("A.Development","Friends","Always  Sunny")
-for com in coms:
-  print(com)
+for person in people:
+  print(person) 
