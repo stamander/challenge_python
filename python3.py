@@ -1,7 +1,10 @@
-people = {
-  "G.Bluth II": "A development",
-  "Barney":"HIMYM"
-}
+tv = ["GOT","Narcos"," Vice"]
+i = 0
 
-for person in people:
-  print(person) 
+for show in tv:
+  new = tv[i]
+  new = new.upper()
+  tv[i] = new
+  i+=1
+
+print(tv) 
