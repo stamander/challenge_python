@@ -1,10 +1,14 @@
 tv = ["GOT","Narcos"," Vice"]
+coms = ["Arrested","friends","Always Sunny"]
+all_shows = {}
 i = 0
 
 for show in tv:
-  new = tv[i]
-  new = new.upper()
-  tv[i] = new
-  i+=1
+  show = show.upper()
+  all_shows.appemd(show)
 
-print(tv) 
+for show in coms:
+  show = show.apper()
+  all_shows.append(show)
+
+  print(all_shows)
