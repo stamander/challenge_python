@@ -4,4 +4,4 @@ added = []
 for i in list1:
   for j in list2:
     added.append(i+j)
-    print(added)
+print(added)
