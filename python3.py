@@ -1,5 +1,3 @@
-while input('y or n?') != 'n':
-  for i in range(1,6):
-    print(i)
+import  random
 
-
+print(random.randint(0,100))
