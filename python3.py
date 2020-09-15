@@ -27,4 +27,8 @@ while wrong < len (stages) -1:
     cind = rletters.index(char)
     borad[cind] = char
     rletters[cind]= '$'
+  else:
+    wrong +=1
+    print(" ".join)
+
   
