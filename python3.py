@@ -7,7 +7,7 @@ def hangman(word):
     "|     |      ",
     "|     0      ",
     "|    /|\     ",
-    "|    /  \    ",
+    "|   /   \    ",
     "|            "
   ]
 
@@ -25,11 +25,11 @@ def hangman(word):
     char = input(msg)
     if char in rletters:
       cind = rletters.index(char)
-      borad[cind] = char
+      board[cind] = char
       rletters[cind]= '$'
     else:
       wrong +=1
-      print(" ".join(borad))
+      print(" ".join(board))
       e = wrong +1
       print("\n".join(stages[0:e]))
       if "_" not in board:
@@ -38,7 +38,7 @@ def hangman(word):
         win = True
         break
   if not win:
-    print("\n.join"(stages[0:wrong + 1]))
+    print("\n".join(stages[0:wrong + 1]))
     print("あなたの負け!正解は{}.".format(word))
 
 hangman("cat")
