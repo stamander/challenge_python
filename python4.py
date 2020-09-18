@@ -1,5 +1,6 @@
-i = 0
-while i < 5:
-  print(i)
-  i += 1
-print("loop end:"+str(i))
+test1 = [90,92,76,86,67]
+sum = 0
+for score in test1:
+  sum +=score
+print(sum)
+print(sum/len(test1))
