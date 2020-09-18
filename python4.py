@@ -1,5 +1,4 @@
-test1 = {"english":90,"japanese":92,"math":76,"science":86,"social":67}
+weekdays = ("Monday","Tuesday","Wendsday","Tgursday","Friday")
 
-print(len(test1))
-
-print(sorted(test1))
+print("Sunday" in weekdays)
+print("Monday" in weekdays)
