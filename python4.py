@@ -29,13 +29,13 @@ def main():
     else:
       print("Miss")
       computer_count +=1
-      print("Computer number:{}".format(computer_number))
-      print("Next>>")
+    print("Computer number:{}".format(computer_number))
+    print("Next>>")
 
-    if player_count == 5:
-      print("You Win!")
-    else: 
-      print("You Lose")
+  if player_count == 5:
+    print("You Win!")
+  else: 
+    print("You Lose")
 
 if __name__ == '__main__':
   main()
