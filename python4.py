@@ -11,7 +11,6 @@ def get_answer():
 def main():
   player_count = 0
   computer_count = 0
-
   while player_count < 5 and computer_count <5:
     player_number = randint(1,13)
     print("Your number:{}".format(player_number))
