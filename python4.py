@@ -14,14 +14,14 @@ def main():
   textpos.centerx = surface.get_rect().centerx #x座標の中心
   textpos.centery = surface.get_rect().centery #y座標の中心
 
-  while True:
-    for event in pygame.event.get():
+  while True:  #無限ループ
+    for event in pygame.event.get(): #eventキューからイベントを取り出す
       if event.type == QUIT:
-        pygame.quit()
+        pygame.quit() #閉じるボタンを押すとプログラムを終了する
         sys.exit()
-    surface.fill((255,255,255))
-    surface.blit(text,textpos)
-    pygame.display.update()
+    surface.fill((255,255,255)) #surfaceの色を一色で塗りつぶす
+    surface.blit(text,textpos) #画像を他の画像上に描写 変数textを描写し、位置をtextposで指定
+    pygame.display.update() #画面を更新
     clock.tick(10)
 
 if __name__ == '__main__':
