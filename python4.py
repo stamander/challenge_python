@@ -19,7 +19,7 @@ def main():
       if event.type == QUIT:
         pygame.quit()
         sys.exit()
-    surface.fill((220,220,220))
+    surface.fill((255,255,255))
     surface.blit(text,textpos)
     pygame.display.update()
     clock.tick(10)
