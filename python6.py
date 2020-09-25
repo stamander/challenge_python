@@ -19,9 +19,10 @@ def main():
     if y < surface.get_rect().bottom +10:
       y -=10
     pygame.draw.circle(surface,(255,0,0),(x,y),10) #縁を描画
-    pygame.draw.circle(surface,(255,0,0),(50,50),20)
+    pygame.draw.circle(surface,(255,0,0),(x+10,y-10),5)
+    pygame.draw.circle(surface,(255,0,0),(x-10,y-10),5)
     pygame.display.update()
-    clock.tick(30)
+    clock.tick(10)
 
 
 if __name__=='__main__':
