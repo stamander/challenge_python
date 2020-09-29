@@ -8,7 +8,7 @@ from pygame.locals import QUIT
 def main():
   pygame.init()
   surface = pygame.display.set_mode((400,400))
-  pygame.display.set_caption("mickey bound")
+  pygame.display.set_caption("mickey bounds")
   clock = pygame.time.Clock()
   x = 0
   y = 0
