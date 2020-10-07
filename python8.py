@@ -10,4 +10,5 @@ disney={'mickey':'mouse','donald':'duck','atsushi':'human'}
 
 disney['chip']= 'Squirrel'
 
-print(disney)
+for leader_keys in disney:
+  print("僕らのクラブのリーダーは"+leader_keys + disney[leader_keys])
