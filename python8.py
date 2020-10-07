@@ -8,4 +8,6 @@ for food in foods:
 
 disney={'mickey':'mouse','donald':'duck','atsushi':'human'}
 
-print("僕らのクラブのリーダーは"+disney['mickey'])
+disney['chip']= 'Squirrel'
+
+print(disney)
