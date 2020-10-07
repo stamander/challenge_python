@@ -1,3 +1,3 @@
 foods = ['pasta','curry','sushi']
 
-print(foods)
+print("my favorite food is " + foods[0])
