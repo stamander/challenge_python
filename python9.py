@@ -8,4 +8,5 @@ while x > 0:
     # 変数xから1引いてください
     x-=1
     if x == 3:
-      break
+      continue
+      print(x)
