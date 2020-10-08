@@ -1,12 +1,7 @@
-x = 10
+x = 1
+while x < 100:
 
-# while文を用いて、「変数xが0より大きい」間、繰り返される繰り返し処理を作ってください
-while x > 0:
-    print(x)
-    # 変数xを出力してください
-    
-    # 変数xから1引いてください
-    x-=1
-    if x == 3:
-      continue
-      print(x)
+  x+=1
+  if x % 2==0:
+    continue
+  print(x)
