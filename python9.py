@@ -3,3 +3,4 @@ def hello(name):
 
 
 hello('mickey')
+hello('ats')
