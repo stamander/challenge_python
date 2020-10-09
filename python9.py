@@ -1,6 +1,6 @@
-def hello(name,greet):
+def hello(name,greet='hello'):
   print(name + greet)
 
 
-hello('mickey ','good morning')
+hello('mickey ')
 hello('ats ','good evening')
