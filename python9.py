@@ -7,18 +7,16 @@ class MenuItem:
     get_total_price = self.price * count
     return get_total_price
 
-menu_item1 = MenuItem()
-menu_item1.name = 'サンドイッチ'
-menu_item1.price = 500
 
+  def __init__(self,name,price ):
+    self.name = name
+    self.price = price
+
+
+menu_item1 = MenuItem('サンドイッチ',500)
+menu_item2 = MenuItem('チョコケーキ',400)
 
 menu_item1.info()
-
-
-menu_item2 = MenuItem()
-menu_item2.name = 'チョコケーキ'
-menu_item2.price = 400
-
 
 menu_item2.info()
 
