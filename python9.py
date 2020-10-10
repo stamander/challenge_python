@@ -6,3 +6,17 @@ menu_item3 = MenuItem('コーヒー', 300)
 menu_item4 = MenuItem('オレンジジュース', 200)
 
 menu_items = [menu_item1, menu_item2, menu_item3, menu_item4]
+
+index =0
+
+for menu_item in menu_items:
+  print(str(index)+ '.' + menu_item.info())
+  index+=1
+
+print('--------------------------')
+
+order = int(input('メニューを選んでください'))
+
+selected_menu = menu_items[order]
+
+print('選んだもの：'+selected_menu.name)
