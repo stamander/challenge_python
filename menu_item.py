@@ -8,6 +8,10 @@ class MenuItem:
 
   def total_price(self,count):
     get_total_price = self.price * count
-    return get_total_price
+    
 
+    if count >= 3:
+      get_total_price *= 0.9
+
+    return round(get_total_price)
 
