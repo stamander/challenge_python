@@ -1,16 +1,7 @@
-class MenuItem:
-    
-  def info(self):
-    print(self.name + ':¥' + str(self.price))
-
-  def total_price(self,count):
-    get_total_price = self.price * count
-    return get_total_price
+from menu_item import MenuItem
 
 
-  def __init__(self,name,price ):
-    self.name = name
-    self.price = price
+
 
 
 menu_item1 = MenuItem('サンドイッチ',500)
