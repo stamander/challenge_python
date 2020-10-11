@@ -1,4 +1,10 @@
-from menu_item import MenuItem
+from food import Food
+from drink import Drink
 
-class Food(MenuItem):
-    pass
+food1= Food('サンドイッチ',500)
+
+print(food1.info())
+
+drink1 = Drink('コーヒー',300)
+
+print(drink1.info())
