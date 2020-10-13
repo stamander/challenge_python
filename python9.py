@@ -42,4 +42,4 @@ selected_drink.get_total_price(count)
 
 result = selected_food.get_total_price(count) + selected_drink.get_total_price(count)
 # 「合計は〇〇円です」となるように出力してください
-print('合計は'+str(result)+'円です'
+print('合計は'+str(result)+'円です')
