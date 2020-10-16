@@ -1,4 +1,8 @@
-a,b=(int(x) for x in input().split())
+Balance_money = int(input())
 
-c = a**3-b**3
-print(c)
+
+if Balance_money < 10000:
+  Balance_money+=10000
+  print(Balance_money)
+else:
+  print(Balance_money)
