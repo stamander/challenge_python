@@ -1,3 +1,8 @@
 a,b=(int(x) for x in input().split())
-print(a)
-print(b)
+
+c = a*b
+
+if c < 10000:
+  print(c)
+else:
+  print('NG')
