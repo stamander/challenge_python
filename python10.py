@@ -5,4 +5,5 @@ c = a*b
 if c < 10000:
   print(c)
 else:
-  print('NG'
+  print('NG')
+  
