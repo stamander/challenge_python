@@ -1,9 +1,7 @@
 a,b=(int(x) for x in input().split())
 
-c = a*b
+c = a*6000
 
-if c < 10000:
-  print(c)
-else:
-  print('NG')
-  
+d= b * 4000
+
+print (c+d)
