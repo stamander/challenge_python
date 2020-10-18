@@ -1,7 +1,9 @@
-a,b=(int(x) for x in input().split())
+phrase = input(str('言葉'))
 
-c = a*6000
+plas = len(phrase)
 
-d= b * 4000
+plas_number = int(plas+2)*'+'
 
-print (c+d)
+
+
+print(plas_number+'\n'+'+'+phrase+'+\n'+plas_number)
