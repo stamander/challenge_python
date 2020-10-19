@@ -1,25 +1,54 @@
 
+i = list(map(int, input().split()))
 
-N = int(input()) #1行目のNを取得する
-s = [int(input()) for i in range(N)] #複数行の数値の入力を取得
+start = i[0]
 
-for num in s:
+ride_time = i[1]
+
+point = 0
+
+money = [int(input()) for i in range(ride_time)]
+
+for fare in money:
+  
+
+
+  if point > fare:
+    point-=fare
+  else:
+    start-=fare
+
+    point += int(fare/10) 
+  print(start,point)
+
+
+
+
+# for balance in money:
+
+#   point = 0
+
+#   start -= balance
+#   point += int(balance/10)
+
+
+
+
+
+
+
+#   if point <= 100:
+#     balance-=100
+    
 
   
 
-  answer = [i for i in range(1, num+1) if num % i ==0]
+#   print(start,point)
 
 
 
-  total_answer = sum(answer)-num
+  
 
 
 
-  if num == total_answer:
-    print('perfect')
-
-  elif num - total_answer == 1:
-    print('nearly')
-
-  else:
-    print('neither')
+  
