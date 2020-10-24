@@ -1,6 +1,8 @@
-a,b,c = list(map(int, input().split()))
+money,buy_stock,sell_stock = [int(input()) for i in range(3)]
 
-total_score = a + b + c
+total_buy = money/buy_stock
+
+total_sell = total_buy * sell_stock
 
 
-print(total_score)
+print(total_buy,total_sell)
