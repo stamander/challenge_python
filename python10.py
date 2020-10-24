@@ -4,5 +4,6 @@ total_buy = money/buy_stock
 
 total_sell = total_buy * sell_stock
 
+capital = total_sell-money
 
-print(total_buy,total_sell)
+print(int(capital))
