@@ -44,6 +44,7 @@ print(number)
 number = str(number)
 
 poker(number)
-    
+
+number
 
  
