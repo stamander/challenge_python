@@ -41,7 +41,7 @@ number = random.randrange(1000,10000)
 
 print(number)
 
-plays = input('手札を変更しますか？ yes or no')
+plays = input('手札を変更しますか？ yes or no:')
 
 
 if plays == 'yes':
