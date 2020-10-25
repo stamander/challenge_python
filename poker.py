@@ -41,10 +41,29 @@ number = random.randrange(1000,10000)
 
 print(number)
 
-number = str(number)
+plays = input('手札を変更しますか？ yes or no')
 
-poker(number)
 
-number
+if plays == 'yes':
+  number = random.randrange(1000,10000)
+  number = str(number)
+
+  poker(number)
+
+elif plays == 'no':
+  number = str(number)
+
+  poker(number)
+
+
+print(number)
+
+
+
+
+
+
+
+
 
  
