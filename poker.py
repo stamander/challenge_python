@@ -48,7 +48,7 @@ if plays == 'yes':
   number = random.randrange(1000,10000)
   number = str(number)
 
-  poker(number)
+  print(number,poker(number))  
 
 elif plays == 'no':
   number = str(number)
@@ -56,7 +56,7 @@ elif plays == 'no':
   poker(number)
 
 
-print(number)
+
 
 
 
