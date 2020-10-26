@@ -5,7 +5,11 @@ n= 0
 while n < 31:
 
   if n % 3==0:
+
+    total_price = n+n
     print(str(n) + '*')
+
+
     
   else:
 
@@ -13,5 +17,5 @@ while n < 31:
   n+=1
 
 
-
+print(total_price)
 
