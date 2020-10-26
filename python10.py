@@ -2,7 +2,7 @@
 
 n= 0
 
-while n < 31:
+while n < 10000:
 
   if n % 3==0:
 
