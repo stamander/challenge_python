@@ -1,6 +1,6 @@
-a,b = [int(input()) for i in range(2)]
+a = input()
 
+b = int(a) * 12
 
-c = a * a -b
+print(b)
 
-print(c)
