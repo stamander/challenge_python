@@ -1,6 +1,4 @@
-a = input()
+a,b,c = [input() for i in range(3)]
 
-b = int(a) * 12
 
-print(b)
-
+print(b+'/'+c+'/'+a)
