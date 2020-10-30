@@ -1,9 +1,8 @@
-weight = int(input)
+a,b = list(map(int, input().split())) 
 
-tota_weight = weight*150
-
-print(total_weight)
-
-
-
-
+if a<b:
+  print(b)
+elif a>b:
+  print(a)
+elif a==b:
+  print(eq)
