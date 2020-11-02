@@ -1,6 +1,5 @@
-choco = int(input())
+N = int(input())
+s = [input() for i in range(N)]
 
-if choco >=1:
-  print(choco*3)
-else:
-  print(1)
+for namber in s:
+  print(namber)
