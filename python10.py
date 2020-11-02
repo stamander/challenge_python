@@ -1,9 +1,6 @@
-s = [int(input()) for i in range(5)]
+choco = int(input())
 
-print(s[1]-s[0])
-print(s[2]-s[1])
-print(s[3]-s[2])
-print(s[4]-s[3])
-
-
-
+if choco >=1:
+  print(choco*3)
+else:
+  print(1)
