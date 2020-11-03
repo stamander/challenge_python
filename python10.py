@@ -1,7 +1,10 @@
-n = [4, 0, 5, -1, 3, 10, 6, -8]
+N = int(input()) #1行目のNを取得する
+s = [int(input()) for i in range(N)] #複数行の数値の入力を取得
 
-for i in n:
+result =0
 
-  if i >= 5:
-    
-    print(i)
+for array in s:
+  if array >= 5:
+    result +=array
+
+print(result)
