@@ -1,5 +1,9 @@
-import re
+def hello(name)
+  puts "Hello, #{name}!"
+end
 
-source = '''飯田集志'''
+hello('Alice')
 
-print(re.findall('[^\u\l]+',source))
+hello('Bob')
+
+hello('Carol')
