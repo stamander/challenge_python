@@ -1,3 +1,1 @@
-n = input()
-
-print(len(n))
+s = input().split()
