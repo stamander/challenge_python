@@ -1,3 +1,3 @@
-N= int(input())
+a,b = list(map(int, input().split())) 
 
-print int((N * (N - 1) / 2))
+print(a+b)
