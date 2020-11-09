@@ -1,3 +1,4 @@
-string = input()
+a,b = list(map(int, input().split()))
 
-print(len(string))
+for i in range(a,b+1):
+  print(i)
