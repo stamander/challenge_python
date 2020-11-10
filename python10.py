@@ -1,4 +1,4 @@
-s = input()
-d = input()
+a,b = input().split() 
 
-print(s+'@'+d)
+print(a)
+print(b)
