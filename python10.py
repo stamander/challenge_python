@@ -1,6 +1,6 @@
-nums = input().split()
-string = input()
+a,b = list(map(int, input().split())) 
+s = input()
 
-print(string[0:int(nums[0]) - 1], end='')
-print(string[int(nums[0]) - 1:int(nums[1])].upper(), end='')
-print(string[int(nums[1]):])
+
+print(s[:a], end = '')
+print(s[a:])
