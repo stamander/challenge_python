@@ -1,7 +1,3 @@
-s = input()
+a,b = list(map(int, input().split())) 
 
-t = input()
-
-print(t.count(s))
-
-
+print(abs(b-a))
