@@ -1,3 +1,3 @@
-a,b = list(map(int, input().split())) 
+s = input()
 
-print(abs(b-a))
+print(len(s))
