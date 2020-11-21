@@ -9,5 +9,4 @@ elif 48<t and 72 >=t:
 elif 72<t and 96 >=t:
   print(4)
 elif 96<t and 96+24 >=t:
-  print(5
-
+  print(5)
