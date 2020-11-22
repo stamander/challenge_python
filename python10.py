@@ -1,12 +1,4 @@
-
-import re
 s = input()
 t = input()
-res = re.search(s,t)
-# match_len = res.group()
 
-print(res)
-
-
-
-
+print(t.count(s))
