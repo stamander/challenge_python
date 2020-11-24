@@ -1,4 +1,5 @@
-y,m,d = input().split()
+a,b=list(map(int, input().split())) 
+c,d =list(map(int, input().split())) 
 
 
-print(y+'/'+m+'/'+d)
+print(a*d-b*c)
