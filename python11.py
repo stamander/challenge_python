@@ -1,5 +1,4 @@
-a,b=list(map(int, input().split())) 
-c,d =list(map(int, input().split())) 
+s = input()
 
 
-print(a*d-b*c
+print(s[::-1])
