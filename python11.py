@@ -1,5 +1,6 @@
 a = input()
-b = int(input())
 
-
-print(a[:b])
+if a % 2==0:
+  print('even')
+elif a % 2 ==1:
+  print('odd')
