@@ -1,4 +1,4 @@
-n = int(input())
-s = int(input())
+a,b = list(map(int, input().split()))
 
-print(n%s)
+
+print(int(a/b))
