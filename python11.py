@@ -1,4 +1,7 @@
+family = intinput()
+
+
 a,b = list(map(int, input().split()))
 
 
-print(int(a/b))
+print(a*b/family)
