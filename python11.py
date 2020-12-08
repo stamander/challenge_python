@@ -1,7 +1,11 @@
-family = intinput()
+s = input()
 
 
-a,b = list(map(int, input().split()))
+a = 0
+for i in s:
+  if i == 'y':
+    a +=1
 
 
-print(a*b/family)
+
+print(a
