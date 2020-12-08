@@ -8,4 +8,4 @@ for i in s:
 
 
 
-print(a
+print(a)
