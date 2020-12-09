@@ -1,11 +1,4 @@
-s = input()
+s = int(input())
+t = int(input())
 
-
-a = 0
-for i in s:
-  if i == 'y':
-    a +=1
-
-
-
-print(a)
+print(s*t)
