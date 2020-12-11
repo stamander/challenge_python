@@ -1,4 +1,4 @@
 s = int(input())
+t = input()
 
-
-print(s*60)
+print(t[:s])
