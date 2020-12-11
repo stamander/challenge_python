@@ -8,6 +8,7 @@ i =1
 for st in s:
   ans +=abs(st-i)
 
+
   i=st
 
 print(ans)
