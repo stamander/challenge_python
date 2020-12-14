@@ -1,5 +1,7 @@
-s,t = input().split() 
+a,b = list(map(int, input().split())) 
 
-t = int(t)
 
-prins(s[:t])
+if a+b<16:
+  print('HIT')
+elif a + b >=16:
+  print('STAND')
