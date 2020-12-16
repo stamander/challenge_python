@@ -1,6 +1,6 @@
 
+a = int(input())
+b = int(input())
 
 
-n = int(input())
-
-print(100-n)
+print(180-(a+b))
