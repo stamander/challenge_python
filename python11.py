@@ -1,5 +1,6 @@
 
-a = int(input())
-b = int(input())
 
 
+a,b,c =list(map(int, input().split())) 
+
+print(a*b*c)
