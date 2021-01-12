@@ -1,10 +1,15 @@
 
 
 
-a = int(input())
+a =  input()
+b = input()
 
-print(a-1)
+a = len(a)
+b = len(b)
 
-
+if a == b:
+  print('Yes')
+else
+print('No')
 
 
