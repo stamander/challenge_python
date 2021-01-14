@@ -4,12 +4,9 @@
 a =  input()
 b = input()
 
-a = len(a)
-b = len(b)
+if a == "S":
+  print(b+1925)
 
-if a == b:
-  print('Yes')
-else
-print('No'
-
+elif b == "H":
+  print(b+1989)
 
