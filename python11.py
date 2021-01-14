@@ -10,6 +10,6 @@ b = len(b)
 if a == b:
   print('Yes')
 else
-print('No')
+print('No'
 
 
