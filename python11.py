@@ -1,11 +1,5 @@
+a = int(input())
 
 
-
-a =  input()
-b = input()
-
-if a == "S":
-  print(b+1925)
-
-elif b == "H":
-  print(b+1989)
+for num in range(10,0,-1):
+  print(num)
