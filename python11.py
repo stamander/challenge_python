@@ -1,5 +1,13 @@
 a = int(input())
 
 
-for num in range(10,0,-1):
-  print(num)
+if a == 5:
+  print('A')
+elif a == 4:
+  print('B')
+elif a == 3:
+  print('C')
+elif a == 2:
+  print('D')
+elif a == 1:
+  print('E')
