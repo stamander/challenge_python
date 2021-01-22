@@ -1,13 +1,7 @@
 a = int(input())
 
 
-if a == 5:
-  print('A')
-elif a == 4:
-  print('B')
-elif a == 3:
-  print('C')
-elif a == 2:
-  print('D')
-elif a == 1:
-  print('E')
+if a >= 40 and a<60:
+  print("OK")
+else:
+  print("NG")
