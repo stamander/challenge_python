@@ -1,7 +1,3 @@
-a = int(input())
+m,n=(int(x) for x in input().split())
 
-
-if a >= 40 and a<60:
-  print("OK")
-else:
-  print("NG")
+print(int(m/n),int(m%n))
