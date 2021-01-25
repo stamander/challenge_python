@@ -1,3 +1,8 @@
-m,n=(int(x) for x in input().split())
+a = int(input())
+b = int(input())
+c = int(input())
 
-print(int(m/n),int(m%n
+if a==b==c:
+  print('YES')
+else:
+  print('NO')
