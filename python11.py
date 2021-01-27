@@ -1,6 +1,6 @@
-a = int(input())
-b = int(input())
+a,b = list(map(int, input().split()))
+
+c  = int(input())
 
 
-print(a*b/10)
-
+print(int(c-a),int(c-b))
