@@ -1,6 +1,11 @@
-a,b = list(map(int, input().split()))
+
 
 c  = int(input())
 
 
-print(int(c-a),int(c-b))
+if c > 0 and c < 30:
+  print('sunny')
+elif c > 31 and c <70:
+  print('cloudy')
+else:
+  print('rainy')
