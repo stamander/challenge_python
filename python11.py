@@ -1,6 +1,4 @@
+org_str = input()
 
-
-b  = int(input())
-
-
-print(int(b＊1500))
+new_str = ''.join(list(reversed(org_str)))
+print(new_str)
