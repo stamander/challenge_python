@@ -1,4 +1,12 @@
-org_str = input()
+a,b,c = list(map(int, input().split())) 
 
-new_str = ''.join(list(reversed(org_str)))
-print(new_str)
+a ="A"*a
+b="B"*b
+c ="A"*c
+
+
+
+d = a,b,c
+
+for s in d:
+  print(s)
