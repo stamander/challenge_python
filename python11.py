@@ -9,4 +9,4 @@ c ="A"*c
 d = a,b,c
 
 for s in d:
-  print(s
+  print(s)
