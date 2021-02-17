@@ -1,6 +1,4 @@
-a = input()
+i = list(map(int, input().split())) 
 
+print(max(i))
 
-
-
-print(a.count('A'))
