@@ -1,4 +1,4 @@
 i = list(map(int, input().split())) 
 
-print(max(i))
+print(max(i)
 
